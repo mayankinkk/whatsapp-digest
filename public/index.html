@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhatsApp Digest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>WhatsApp Group Digest</h1>
+      <p class="subtitle">For the friend who mutes every college group</p>
+      <div id="status-badge" class="badge checking">Checking Ollama…</div>
+    </header>
+
+    <main>
+      <!-- Upload Section -->
+      <section id="upload-section" class="card">
+        <div id="drop-zone" class="drop-zone">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="17 8 12 3 7 8" />
+            <line x1="12" y1="3" x2="12" y2="15" />
+          </svg>
+          <p><strong>Upload your WhatsApp export</strong></p>
+          <p class="hint">Drag & drop a .txt file, or click to browse</p>
+          <input type="file" id="file-input" accept=".txt" hidden />
+        </div>
+
+        <div class="actions">
+          <button id="btn-digest" class="btn btn-primary" disabled>Get Full Digest</button>
+          <button id="btn-weekly" class="btn btn-secondary" disabled>What did I miss this week?</button>
+        </div>
+
+        <div class="how-to">
+          <h3>How to export a chat</h3>
+          <ol>
+            <li>Open the group in WhatsApp</li>
+            <li>Tap the group name → <em>Export chat</em></li>
+            <li>Choose <em>Without media</em></li>
+            <li>Upload the <code>.txt</code> file here</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Loading -->
+      <section id="loading" class="card hidden">
+        <div class="spinner"></div>
+        <p id="loading-text">Analyzing chat…</p>
+      </section>
+
+      <!-- Error -->
+      <section id="error" class="card error hidden">
+        <p id="error-text"></p>
+        <button class="btn btn-secondary" onclick="location.reload()">Try again</button>
+      </section>
+
+      <!-- Results -->
+      <section id="results" class="hidden">
+        <div class="card stats-card" id="stats-card"></div>
+
+        <div id="weekly-result" class="hidden"></div>
+
+        <div id="full-result">
+          <div class="card result-section" id="section-summary">
+            <h2>TL;DR</h2>
+            <p id="summary-text"></p>
+          </div>
+
+          <div class="card result-section" id="section-deadlines">
+            <h2>Deadlines</h2>
+            <div id="deadlines-list" class="item-list"></div>
+          </div>
+
+          <div class="card result-section" id="section-assignments">
+            <h2>Assignments</h2>
+            <div id="assignments-list" class="item-list"></div>
+          </div>
+
+          <div class="card result-section" id="section-exams">
+            <h2>Exams</h2>
+            <div id="exams-list" class="item-list"></div>
+          </div>
+
+          <div class="card result-section" id="section-actions">
+            <h2>Action Items</h2>
+            <div id="actions-list" class="item-list"></div>
+          </div>
+
+          <div class="card result-section" id="section-updates">
+            <h2>Important Updates</h2>
+            <div id="updates-list" class="item-list"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <button class="btn btn-secondary" id="btn-reset">Analyze another chat</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Runs 100% locally via <a href="https://ollama.com" target="_blank">Ollama</a>. Your chat never leaves your machine.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
