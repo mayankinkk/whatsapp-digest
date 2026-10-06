@@ -1,0 +1,37 @@
+[01/10/26, 9:15:30 AM] Rahul: Good morning everyone! 🌅
+[01/10/26, 9:16:12 AM] Priya: Morning! Did anyone see the DBMS assignment?
+[01/10/26, 9:17:45 AM] Rahul: Yeah Prof. Sharma posted it on the portal
+[01/10/26, 9:18:02 AM] Priya: What's the deadline?
+[01/10/26, 9:18:30 AM] Rahul: Submit by tomorrow 11:59 PM
+[01/10/26, 9:19:00 AM] Amit: Bro I haven't even started 😭
+[01/10/26, 9:19:45 AM] Priya: Same here. It's the ER diagram one right?
+[01/10/26, 9:20:15 AM] Rahul: Yes, questions 1-4. We need to normalize the schema too.
+[01/10/26, 10:30:00 AM] Sneha: Hey, reminder - Mini Project demo is on Friday
+[01/10/26, 10:31:15 AM] Amit: Friday?? That's Oct 3rd!
+[01/10/26, 10:32:00 AM] Sneha: Yes, 2 PM in Lab 3. Each team presents for 10 minutes.
+[01/10/26, 10:33:30 AM] Rahul: Our team still hasn't finalized the UI
+[01/10/26, 10:34:00 AM] Priya: I'll do the frontend tonight. Rahul you handle backend?
+[01/10/26, 10:34:45 AM] Rahul: Deal. Let's meet in the library at 5 PM today to integrate.
+[01/10/26, 11:00:00 AM] Amit: Also guys, mid-sem exam schedule is out!
+[01/10/26, 11:00:30 AM] Amit: Database Systems: Oct 15
+[01/10/26, 11:00:45 AM] Amit: Operating Systems: Oct 17
+[01/10/26, 11:01:00 AM] Amit: Computer Networks: Oct 20
+[01/10/26, 11:02:00 AM] Sneha: Oh no, only 2 days between DBMS and OS
+[01/10/26, 11:05:00 AM] Priya: Can someone share the OS notes from last week? I missed that lecture
+[01/10/26, 11:06:30 AM] Rahul: Sure, I'll share in the evening
+[01/10/26, 2:00:00 PM] Amit: Guys ordered pizza from Dominos - ₹399 combo, who's in?
+[01/10/26, 2:01:00 PM] Priya: In!
+[01/10/26, 2:01:30 AM] Sneha: Count me in too
+[01/10/26, 2:05:00 PM] Rahul: OK 4 people, I'll order now. Delivery at 3 PM.
+[01/10/26, 6:00:00 PM] Priya: Frontend is done! Sending the repo link tonight.
+[01/10/26, 6:01:00 PM] Rahul: Great, I'll pull it and work on the API layer.
+[02/10/26, 8:00:00 AM] Sneha: Don't forget - Mini Project proposal submission deadline is Oct 4 EOD
+[02/10/26, 8:05:00 AM] Amit: Wait, that's Sunday??
+[02/10/26, 8:05:30 AM] Sneha: Yes, the portal closes at midnight Oct 4
+[02/10/26, 8:06:00 AM] Rahul: I'll submit tonight after we finish the integration
+[02/10/26, 9:00:00 AM] Priya: Also attendance for CN class tomorrow - anyone ready to proxy? 😅
+[02/10/26, 9:01:00 AM] Amit: Don't risk it, prof takes selfies now
+[02/10/26, 9:02:00 AM] Priya: Lol really? OK I'll come.
+[02/10/26, 11:30:00 AM] Sneha: Upload marks for Quiz 1 are out. Check the portal.
+[02/10/26, 11:31:00 AM] Amit: Got 14/20. Not bad.
+[02/10/26, 11:35:00 PM] Priya: 16/20! The normalization question saved me.

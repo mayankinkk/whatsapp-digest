@@ -16,7 +16,7 @@ For the friend who mutes every college group. Upload a WhatsApp export and get a
 curl -fsSL https://ollama.com/install.sh | sh
 
 # 2. Pull a model
-ollama pull gemma3:4b
+ollama pull qwen2.5:0.5b
 
 # 3. Start Ollama
 ollama serve &
@@ -51,7 +51,7 @@ Environment variables:
 |---|---|---|
 | `PORT` | `3000` | Server port |
 | `OLLAMA_URL` | `http://localhost:11434` | Ollama API URL |
-| `OLLAMA_MODEL` | `gemma3:4b` | Model to use |
+| `OLLAMA_MODEL` | `qwen2.5:0.5b` | Model to use |
 
 Example with Qwen:
 
