@@ -1,5 +1,5 @@
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
-const PREFERRED_MODEL = process.env.OLLAMA_MODEL || "gemma3:4b";
+const PREFERRED_MODEL = process.env.OLLAMA_MODEL || "qwen2.5:0.5b";
 let resolvedModel = null;
 
 async function listModels() {
@@ -36,9 +36,13 @@ async function chat(messages, options = {}) {
       model,
       messages,
       stream: false,
+      ...(options.json ? { format: "json" } : {}),
       options: {
         temperature: options.temperature ?? 0.3,
         num_predict: options.numPredict ?? 2048,
+        num_ctx: options.numCtx ?? 8192,
+        repeat_penalty: options.repeatPenalty ?? 1.3,
+        repeat_last_n: options.repeatLastN ?? 64,
       },
     }),
   });
